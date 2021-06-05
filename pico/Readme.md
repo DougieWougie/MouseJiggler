@@ -1,5 +1,7 @@
 Raspberry Pi Pico Mouse Jiggler
 
+CircuitPython on Pico doesn't include Adafruit's HID library and will require you to add `adafruit-circuitpython-hid`.
+
 Module board reference:
 
 - board.A0 board.GP26 board.GP26_A0
