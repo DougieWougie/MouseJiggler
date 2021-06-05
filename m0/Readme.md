@@ -6,4 +6,4 @@ Requires CircuitPython 7.0.0 or higher, as it uses the `boot.py` file to identif
 
 **Default behaviour enables both REPL and USB storage - swap `enable()/disable()` in `boot.py` if you want to avoid logging.**
 
-Code is trivial - it  moves the mouse x and y axis a random distance and moves it back again. 
+Code is trivial - it  moves the mouse x and y axis a random distance and moves it back again. `HOW_LONG` is the variable in seconds for the delay.
