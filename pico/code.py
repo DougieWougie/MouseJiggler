@@ -20,7 +20,6 @@ def blink(times):
         print(x)
 
 def jiggle():
-    print("Jiggle")
     for each in range(randint(1, 4)):
         x = randint(1, 50)
         y = randint(1, 50)
