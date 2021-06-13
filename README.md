@@ -1,4 +1,4 @@
-# jiggler
+# MouseJiggler
 Mouse Jiggler in CircuitPython for ATSAMD21 (M0) or Raspberry Pico
 
 Requires CircuitPython [M0](https://circuitpython.org/board/neopixel_trinkey_m0/)/[Pico](https://circuitpython.org/board/raspberry_pi_pico/) higher than version 7.0.0 (support for code.py rather than rebuilding CircuitPython).
