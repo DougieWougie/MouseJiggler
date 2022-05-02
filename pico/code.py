@@ -13,6 +13,7 @@ led.direction = digitalio.Direction.OUTPUT
 mouse = Mouse(usb_hid.devices)
 
 def blink(times):
+    # Flash the LED with a half second gap
     for x in range(times):
         led.value = False
         sleep(0.5)
@@ -20,6 +21,7 @@ def blink(times):
         print(x)
 
 def jiggle():
+    # Move cursor a random x and y distance between 1 and 50 pixels then move it back
     for each in range(randint(1, 4)):
         x = randint(1, 50)
         y = randint(1, 50)
